@@ -59,7 +59,7 @@
     "ApiLogGroup": {
       "Type": "AWS::Logs::LogGroup",
       "Properties": {
-        "LogGroupName": "/aws/lambda/pece-doctor-signup-dev-api"
+        "LogGroupName": "/aws/lambda/Universal-Tech-Associates-dev-api"
       }
     },
     "IamRoleLambdaExecution": {
@@ -88,7 +88,7 @@
                 "-",
                 [
                   "dev",
-                  "pece-doctor-signup",
+                  "Universal-Tech-Associates",
                   "lambda"
                 ]
               ]
@@ -103,7 +103,7 @@
                   ],
                   "Resource": [
                     {
-                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/pece-doctor-signup-dev*:*"
+                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/Universal-Tech-Associates-dev*:*"
                     }
                   ]
                 },
@@ -114,7 +114,7 @@
                   ],
                   "Resource": [
                     {
-                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/pece-doctor-signup-dev*:*:*"
+                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/Universal-Tech-Associates-dev*:*:*"
                     }
                   ]
                 }
@@ -127,7 +127,7 @@
           "Fn::Join": [
             "-",
             [
-              "pece-doctor-signup",
+              "Universal-Tech-Associates",
               "dev",
               {
                 "Ref": "AWS::Region"
@@ -145,9 +145,9 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/pece-doctor-signup/dev/1587454892620-2020-04-21T07:41:32.620Z/pece-doctor-signup.zip"
+          "S3Key": "serverless/Universal-Tech-Associates/dev/1588139087161-2020-04-29T05:44:47.161Z/Universal-Tech-Associates.zip"
         },
-        "FunctionName": "pece-doctor-signup-dev-api",
+        "FunctionName": "Universal-Tech-Associates-dev-api",
         "Handler": "lambda.universal",
         "MemorySize": 192,
         "Role": {
@@ -164,20 +164,20 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersionGroOyxghsjwBA8NBgJJgAuDT2baVbYd6dmIQo1ubYE": {
+    "ApiLambdaVersioniNKLnvRLqQCcLFLP2SugLbBO1AfgHOjrrjtQv6e9tCU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "9XRNe7Hi5mJdkviJYdGHS/9j4l131RCiwexN2vhQMgI="
+        "CodeSha256": "k+u7ZCKVn2WIWd6Rg73DjQ/uwrO07Aklbc8mcvws2mI="
       }
     },
     "ApiGatewayRestApi": {
       "Type": "AWS::ApiGateway::RestApi",
       "Properties": {
-        "Name": "dev-pece-doctor-signup",
+        "Name": "dev-Universal-Tech-Associates",
         "EndpointConfiguration": {
           "Types": [
             "EDGE"
@@ -289,7 +289,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1587454843972": {
+    "ApiGatewayDeployment1588139025609": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -349,7 +349,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionGroOyxghsjwBA8NBgJJgAuDT2baVbYd6dmIQo1ubYE"
+        "Ref": "ApiLambdaVersioniNKLnvRLqQCcLFLP2SugLbBO1AfgHOjrrjtQv6e9tCU"
       }
     },
     "ServiceEndpoint": {
