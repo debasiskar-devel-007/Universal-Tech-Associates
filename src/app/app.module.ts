@@ -14,6 +14,13 @@ import { DemoMaterialModule } from './material-module';
 import { HTTP_INTERCEPTORS, HttpClient, HttpClientModule } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { MetaModule, MetaLoader, MetaStaticLoader, PageTitlePositioning } from '@ngx-meta/core';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutWirthlinComponent } from './components/about-wirthlin/about-wirthlin.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { ProspectsComponent } from './components/prospects/prospects.component';
+import { RepresentationsComponent } from './components/representations/representations.component';
 
 export function metaFactory(): MetaLoader {
   return new MetaStaticLoader({
@@ -36,7 +43,14 @@ export function metaFactory(): MetaLoader {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    AboutWirthlinComponent,
+    ContactUsComponent,
+    ProspectsComponent,
+    RepresentationsComponent
   ],
   imports: [
     DemoMaterialModule,

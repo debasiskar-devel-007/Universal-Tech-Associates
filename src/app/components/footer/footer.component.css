@@ -1,0 +1,36 @@
+.footer_w{ background: url('../../../assets/images/footerBg.jpg') no-repeat center; background-size: cover;
+height: auto; padding: 16px; position: relative; border-top: 5px solid;
+border-image:   linear-gradient(to right, #ff6f80 50%, #89c5e6 50%, #89c5e6 75% ) 5;
+}
+.footer_w .inner_w { margin: 0 auto; width: 980px; display: flex; align-items: center; }
+.footer_w .inner_w  .image_wr{ display: block; width: 250px; margin-right: 16px; box-sizing: border-box;}
+.footer_w .inner_w  .image_wr img{ max-width: 100%; vertical-align: middle;}
+
+.nav_wrapper{ border-left: 2px solid #b9fd00;}
+.nav_wrapper .nav_list{ display: flex; padding: 0;}
+.nav_wrapper .nav_list .mat-list-item{ color: #fff; font-size: 18px; font-family: 'MontserratRegular'; text-transform: capitalize;}
+.active{ color: #b9fd00!important;}
+.terms_condition{ font-size: 14px; color: #9aa1a4; font-family: 'MontserratRegular'; margin: 0 16px; white-space: normal;}
+.scroll-to-top{position:fixed;bottom:155px;right:30px;z-index:999999;border:none;outline:none; background-color: #6b7986;color:#fff;cursor:pointer;padding:5px 8px;border-radius:0;font-size:18px;opacity:0;transition:all .2s ease-in-out; width: 25px; height: 30px; border-radius: 50%; }
+.scroll-to-top a{ color: #fff!important; width: 100%; height: 100%; display: flex; align-items: center;  justify-content: center;}
+.scroll-to-top a .material-icons{ font-size: 30px; font-weight: bolder; }
+.scroll-to-top:hover{background-color:#3fb3d8;}
+.show-scrollTop{opacity:1;transition:all .2s ease-in-out; }
+
+
+
+@media screen and (max-width: 1199px){
+  .footer_w .inner_w { width: 920px; }
+}
+@media screen and (max-width: 992px){
+  .footer_w .inner_w { flex-direction: column; }
+  .nav_wrapper { border: none; border-top: 2px solid #b9fd00; margin-top: 20px; text-align: center; }
+  .footer_w .inner_w .image_wr { margin-right: 0; }
+}
+@media screen and (max-width: 720px){
+    .nav_wrapper .nav_list .mat-list-item { font-size: 14px; }
+}
+@media screen and (max-width: 600px){
+  .nav_wrapper  .nav_list  { display: flex; flex-direction: column; }
+  .nav_wrapper .nav_list .mat-list-item { font-size: 18px; justify-content: center; display: flex; }
+}

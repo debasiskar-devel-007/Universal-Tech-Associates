@@ -1,0 +1,81 @@
+<app-header></app-header>
+<mat-card class="contact_wr">
+    <mat-card-content class="container">
+        <mat-card-content class="inner_contact_wrpr">
+            <span class="image_wrapper">
+                <img src="../../../assets/images/universal-tech-logo.png">
+            </span>
+            <mat-card-tittle class="title"> contact us </mat-card-tittle>
+        </mat-card-content>
+    </mat-card-content>
+</mat-card>
+
+<mat-card class="main_wr">
+    <mat-card-content class="contact_form_wrapper">
+        <mat-card-title class="form_title">CONTACT US</mat-card-title>
+
+        <mat-card-content class="form_inner">
+
+            <mat-card-content class="forms">
+                <mat-label>Name <b>*</b></mat-label>
+                <span class="form_g">
+                    <mat-form-field class="col-2">
+                        <input matInput placeholder="First Name">
+                    </mat-form-field>
+                    <mat-form-field class="col-2">
+                        <input matInput placeholder="Last Name">
+                    </mat-form-field>
+                </span>
+            </mat-card-content>
+            <mat-card-content class="forms">
+                <mat-label>Address <b>*</b></mat-label>
+                <mat-form-field>
+                    <input matInput placeholder="Line 1">
+                </mat-form-field>
+
+                <span class="form_g">
+                    <mat-form-field class="col-4">
+                        <input matInput placeholder="City">
+                    </mat-form-field>
+                    <mat-form-field class="col-4">
+                        <mat-select placeholder="State">
+                            <mat-option value=" ">state</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field class="col-4">
+                        <input matInput placeholder="Zip">
+                    </mat-form-field>
+                    <mat-form-field class="col-4">
+                        <input matInput placeholder="country">
+                    </mat-form-field>
+                </span>
+            </mat-card-content>
+
+            <mat-card-content class="forms flatWrpr">
+                <span class="form_g phone_wrpr">
+                    <mat-label>Phone Number <b>*</b></mat-label>
+                    <mat-form-field>
+                        <input matInput placeholder="First Name">
+                    </mat-form-field>
+                </span>
+                <span class="form_g phone_wrpr">
+                    <mat-label>Email <b>*</b></mat-label>
+                    <mat-form-field>
+                        <input matInput placeholder="First Name">
+                    </mat-form-field>
+                </span>
+            </mat-card-content>
+
+            <mat-card-content class="forms">
+                <mat-label>Message <b>*</b></mat-label>
+                <mat-form-field>
+                    <textarea matInput placeholder="Message"> </textarea>
+                </mat-form-field>
+            </mat-card-content>
+                <mat-toolbar class="submit_wrapper">
+                    <button mat-button>submit</button>
+                </mat-toolbar>
+        </mat-card-content>
+    </mat-card-content>
+</mat-card>
+<app-footer></app-footer>
