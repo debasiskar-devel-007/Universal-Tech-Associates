@@ -76,5 +76,30 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     box-sizing: border-box;
     width: 100%;
     border: 1px solid #d4d4d4;
-    padding: 10px; background: #fff;
+    padding: 4px 10px; background: #fff;
 }
+.form_inner .mat-form-field-appearance-legacy .mat-form-field-underline {
+    height: 0;
+}
+.univ_button{
+    white-space: normal!important;
+    font-size: 20px;
+    font-family: 'MontserratBold';
+    color: #fff;
+    padding: 10px 16px!important; 
+    background: linear-gradient(0deg, #399cd5, #43beda);
+    border-radius: 30px!important;
+}
+.title_bg{ background: #359ebb; font-family: 'ArnoproRegular'; font-size: 60px; padding: 10px;
+    box-sizing: border-box; border-radius: 6px; color: #fff; position: relative; line-height: 58px; }
+    
+    .title_bg::before{
+        content: '';
+        clip-path: polygon(0 0, 100% 0, 100% 68%);
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        bottom: -23px;
+        background:#359ebb;
+        left: 0;
+    }

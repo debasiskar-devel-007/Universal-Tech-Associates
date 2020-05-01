@@ -18,7 +18,7 @@ font-family: 'RobotoBold'; margin: 30px 0 180px; display: block;}
 .form_inner { padding: 60px 0;}
 .contact_form_wrapper{ width: 1040px; margin: 0 auto; box-shadow: none; }
 .contact_form_wrapper .form_title{ color: #0a121d; font-size: 60px; font-family: 'ArnoproReguar'; text-transform: uppercase; text-align: center;}
-mat-label{ margin-bottom:10px; display: block; color: #555656; font-size: 18px; font-family: 'MontserratRegular'; text-transform: uppercase;}
+mat-label{ margin-bottom:5px; display: block; color: #555656; font-size: 18px; font-family: 'MontserratRegular'; text-transform: uppercase;}
 mat-label b{ color: #fd0404;}
 .form_g{ display: flex; justify-content: space-between; }
  .mat-form-field{ width: 100%; }

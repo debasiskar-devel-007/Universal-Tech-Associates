@@ -130,15 +130,16 @@ background: linear-gradient(20deg, #6e61ba, #4f3ca6); color: #fff; text-transfor
    .uviTech_wrapper .blk1 { background-position: -53% top; }
    .uviTech_wrapper .blk1 .item_section { width: 650px; }
    .uviTech_wrapper .blk1 .item_section .title_bg { font-size: 40px; }
-   .uvTech_lastblk { background-position: -40% center; }
+   .uvTech_lastblk { background-position: -30% center; }
 } 
 @media screen and (max-width: 1400px){
     .uviTech_wrapper .blk2 .item2 { width: 670px; }
     .uviTech_wrapper .blk2 .item2 .title_bg { font-size: 28px; line-height: inherit; }
     .uviTech_wrapper .blk2 .item2 .list1 .list_item .inner_title { font-size: 22px; }
     .uvTech_lastblk .inner_content { width: 670px; } 
-    .uvTech_lastblk .title_bg { font-size: 34px; }   
+    .uvTech_lastblk .title_bg { font-size: 34px; line-height: initial; }   
     .inner_content .subTest span { font-size: 28px; padding: 0px 6px; }   
+    .representWrapper .rep_title { font-size: 44px;}
 }
 @media screen and (max-width: 1340px){ 
 .top_wrapper .top_inner_content { width: 700px; }
