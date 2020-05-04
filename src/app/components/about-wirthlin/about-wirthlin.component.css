@@ -52,7 +52,7 @@ margin-bottom: 60px; display: block;}
 }
 .orangegradbox .parag{color:#0a121d !important;font-size: 23px;line-height: 28px;font-weight: 600;margin: 0 !important;}
 
-.b2{ background: url('../../../assets/images/b2-imgbg.png') no-repeat right -34% top -68%;
+.b2{ background: url('../../../assets/images/b2-imgbg.png') no-repeat right -34% top -10px;
     padding: 105px 30px 20px;
     min-height: 1128px;
     margin-top: -11%;}
