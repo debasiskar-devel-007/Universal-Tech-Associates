@@ -163,7 +163,7 @@ background-size: 760px; padding-bottom: 0; }
 }
 @media screen and (max-width: 1400px){
   .top_wrapper .top_inner_content{ width: 500px; }
-  .artist_wrpr { background-size: 745px; padding-left: 360px; padding-top: 0; background-position: -12% center; }
+  .artist_wrpr { background-size: 630px; padding-left: 360px; background-position: -6% center; }
   .top_wrapper .top_inner_content .subtitle br{ display: none;}
   .artist_wrpr .artist_inner .little_wrpr .univ_button { font-size: 18px; margin-bottom: 10px; line-height: inherit; }
   .artist_wrpr .artist_inner .little_wrpr .para_with_bg { margin: 10px 0; }
