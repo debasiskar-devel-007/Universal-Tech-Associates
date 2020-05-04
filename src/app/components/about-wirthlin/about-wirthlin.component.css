@@ -244,6 +244,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     flex-direction: row;
 }
 
+.b2-content .bluebox{position: relative;}
+.arrowleft{
+    clip-path: polygon(100% 100%, 100% 87%, 80% 86%);
+    background-color: #000;
+    position: absolute;
+    left: -74px;
+    bottom: -13px;
+    height: 98px;
+    width: 92px;
+}
+
 
 @media screen and (max-width: 1740px){
     .container{ width: 90%;}
