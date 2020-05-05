@@ -55,7 +55,7 @@ mat-label b{ color: #fd0404;}
 @media screen and (max-width: 992px){
   .contact_wr { background-position: 100% top; padding-top: 50%; background-size: 195%; background-color: #1a242e; }
   .contact_wr .inner_contact_wrpr { width: 100%; text-align: center; }
-  .contact_wr .inner_contact_wrpr .title { margin: 30px 16px 10px; }
+  .contact_wr .inner_contact_wrpr .title { margin: 30px 16px 10px;font-size: 45px; }
   .contact_wr .inner_contact_wrpr .image_wrapper { margin: auto; margin-top: 30px; }
   .contact_wr .container { width: 100%;  }
   .form_inner  { padding: 20px 0; }
