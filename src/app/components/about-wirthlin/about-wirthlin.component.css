@@ -217,7 +217,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
 }
 
 /* .b5 .b5-content{ width: auto;text-align: left;padding-left: 322px} */
-.b5{ background: url('../../../assets/images/b5-imgbg.png') no-repeat left -50% top -174px;
+.b5{ background: url('../../../assets/images/b5-imgbg.png') no-repeat left -36% top -174px;
     padding: 20px 30px 12px;
     min-height: 1204px;
     margin-top: -9%;}
