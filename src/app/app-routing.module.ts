@@ -9,10 +9,10 @@ import { RepresentationsComponent } from './components/representations/represent
 const routes: Routes = [
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:'home', component:HomeComponent},
-  { path: 'about-wirthlin', component: AboutWirthlinComponent},
-  { path: 'contact-us', component: ContactUsComponent},
+  { path: 'aboutus', component: AboutWirthlinComponent},
+  { path: 'contactus', component: ContactUsComponent},
   { path: 'prospects', component: ProspectsComponent},
-  { path: 'representations', component: RepresentationsComponent},
+  { path: 'representation', component: RepresentationsComponent},
 ];
 
 @NgModule({
