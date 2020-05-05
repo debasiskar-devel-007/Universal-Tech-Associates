@@ -40,7 +40,7 @@ background-size: 830px; padding: 50px 100px; padding-left: 468px; }
  .inner_wrpo .items_prt{ width: 58%; }
  .inner_wrpo .items_prt .title_bg{ margin: 0; margin-bottom: 24px;}
  .inner_wrpo .image_w{ width: 39%; }
- .inner_wrpo .items_prt .univ_button{ margin-top: 26px;}
+ .inner_wrpo .items_prt .univ_button{ margin-top: 26px; line-height: inherit;}
  .desc{ color: #0a121d; font-family: 'MontserratRegular'; font-size: 20px; margin: 0;}
  .h_tag{ color: #0a121d; font-family: 'MontserratsemiBold'; font-size: 30px; text-transform: uppercase;
 margin: 10px 0;}
@@ -110,44 +110,71 @@ background-size: 760px; padding-bottom: 0; }
     .inner_wrpo .items_prt { margin-bottom: 0;}
     .inner_wrpo .image_w img{ width: 470px; }
     .model2 { padding: 50px; }
+    .interested_wr { width: 65%; }
+    .influxiq .title_bg { font-size: 50px; padding: 16px; }
 } 
 @media screen and (max-width: 1680px){
    .top_wrapper {  background-position: 50% center;  padding-bottom: 0; }
+   .inner_wrpo .items_prt { width: 50%; }
+   .inner_wrpo .image_w { width: 48%; }
+   .inner_wrpo .image_w img { max-width: 400px; }
+   .interested_wr { width: 60%; }
+   .geoBG .little_wrpr .univ_button { width: 100%; line-height: inherit; }
 } 
 @media screen and (max-width: 1620px){ 
     .top_wrapper .top_inner_content { width: 600px; }
     .top_wrapper .top_inner_content .title { font-size: 40px; }
     .top_wrapper .top_inner_content .subtitle { font-size: 20px;}
+    .influxiq .title_bg { font-size: 40px; padding: 16px; line-height: inherit; margin-bottom: 20px; }
+    .influxiq { padding: 30px; padding-left: 468px; }
 }
 @media screen and (max-width: 1600px){
     .artist_wrpr .artist_inner .art_title { font-size: 54px; }
     .bgInner { padding-top: 30px; }
+    .geoBG { padding-left: 400px; }
  }
 @media screen and (max-width: 1540px){
 .artist_wrpr .artist_inner .little_wrpr .para { font-size: 20px;}
 .artist_wrpr .artist_inner .little_wrpr .para_with_bg { font-size: 20px; }
 .artist_wrpr { background-size: 750px; padding-left: 400px; }
+.geoBG .artist_inner .little_wrpr .para { font-size: 18px; }
+.geoBG .artist_inner .little_wrpr .para_with_bg { font-size: 18px; }
 
 } 
+@media screen and (max-width: 1500px){
+    .fluentbuzz { background-position:  110% bottom; }
+}
+@media screen and (max-width: 1460px){
+  .geoBG { padding-left: 410px; }
+
+}
 @media screen and (max-width: 1440px){
     .bgInner .inner_wrpo .items_prt .title_bg { font-size: 30px; }
     .bgInner .desc { font-size: 18px; }
     .bgInner .bg_contain { font-size: 18px; }
     .bgInner .inner_wrpo .image_w img { width: 120%; }
+    .BtoPredes { background-position: 106% top; background-size: 430px; }
+    .contextBg { background-position:  110% top; }
+    .desc { font-size: 18px; }
+    .bg_contain { font-size: 18px; }
 }
 @media screen and (max-width: 1420px){
    .artist_wrpr .artist_inner .art_title { font-size: 46px; }
 }
 @media screen and (max-width: 1400px){
   .top_wrapper .top_inner_content{ width: 500px; }
-  .artist_wrpr { background-size: 745px; padding-left: 360px; background-position: -12% center; }
+  .artist_wrpr { background-size: 630px; padding-left: 360px; background-position: -6% center; }
   .top_wrapper .top_inner_content .subtitle br{ display: none;}
   .artist_wrpr .artist_inner .little_wrpr .univ_button { font-size: 18px; margin-bottom: 10px; line-height: inherit; }
   .artist_wrpr .artist_inner .little_wrpr .para_with_bg { margin: 10px 0; }
+  .BtoPredes .inner_wrpo { margin-top: 50px; }
+  .fluentbuzz  .inner_wrpo .items_prt { width: 40%; }
+    .fluentbuzz .inner_wrpo .image_w { width: 56%; }
 }  
 @media screen and (max-width: 1340px){  
     .top_wrapper .top_inner_content .title { font-size: 34px; }
     .top_wrapper.top_inner_content{ width: 500px; }
+    
 }
  
 @media screen and (max-width: 1300px){ 
@@ -159,52 +186,74 @@ background-size: 760px; padding-bottom: 0; }
     }
 }
 @media screen and (max-width: 1199px){ 
-  .top_wrapper { background-size: 150%; background-color: #146fa0; padding: 16px; padding-top: 42%;
-    background-position: 100% top;}
-  .top_wrapper .top_inner_content { width: 100%; }
-  .top_wrapper .top_inner_content .logo_i { width: 400px; margin: auto;  }
-  .top_wrapper .top_inner_content .title br{ display: none; }
-  .top_wrapper .top_inner_content .subtitle br{ display: none;}
-  .top_wrapper .top_inner_content .title , 
-  .top_wrapper .top_inner_content .subtitle{ text-align: center;}
+.top_wrapper { background-size: 150%; background-color: #146fa0; padding: 16px; padding-top: 42%; background-position: 100% top;}
+.top_wrapper .top_inner_content { width: 100%; }
+.top_wrapper .top_inner_content .logo_i { width: 400px; margin: auto;  }
+.top_wrapper .top_inner_content .title br{ display: none; }
+.top_wrapper .top_inner_content .subtitle br{ display: none;}
+.top_wrapper .top_inner_content .title , 
+.top_wrapper .top_inner_content .subtitle{ text-align: center;}
+.artist_wrpr { background-size: 110%; padding: 0px; background-position: 0% top; padding-top: 70%; background-color: #fff0ec; }
+.artist_wrpr .artist_inner { width: auto; background: #fff; padding: 16px; text-align: center; }
 
-  .artist_wrpr { background-size: 110%; padding: 20px; background-position: 0% top; padding-top: 70%; background-color: #fff0ec; }
-.artist_wrpr .artist_inner { width: auto; background: #fff; padding: 10px; }
+.artist_wrpr .artist_inner .wrpr { display: flex; flex-direction: column; }
+.artist_wrpr .artist_inner .wrpr .img_wr { width: 100%; margin-bottom: 30px; text-align: center; }
+.artist_wrpr .artist_inner .little_wrpr { width: 100%; }
+.artist_wrpr .artist_inner .little_wrpr .univ_button { display: block; margin: 10px auto; }
+.artist_wrpr .artist_inner .little_wrpr .univ_button:last-child { margin: 10px auto; }
 
-
+.BtoPredes{ background-position: center top; background-size: 100%; padding: 0; padding-top: 105%; }
+.BtoPredes .inner_wrpo .items_prt,
+.BtoPredes .inner_wrpo .image_w { width: 100%; }
+.BtoPredes .inner_wrpo .image_w img { max-width: 100%; }
+.BtoPredes .inner_wrpo { flex-direction: column-reverse; margin: 0; text-align: center;}
+.inner_wrpo .items_prt .univ_button { display: block; margin: auto; margin-top: 20px; }
+.geoBG .wrpr{ flex-direction: column; }
+.geoBG .artist_inner .wrpr .img_wr{ width: 100%; text-align: center; margin-bottom: 30px; }
+.geoBG  .little_wrpr { width: 100%; }
+.geoBG .artist_inner .little_wrpr { width: 100%; }
+.contextBg { background-position: center top; background-size: 100%; padding: 0; padding-top: 85%; background-color: #fff; text-align: center; }
+.inner_wrpo { display: flex; background: #fff; padding: 16px; flex-direction: column-reverse; margin-bottom: 0; }
+.inner_wrpo .image_w { width: 100%; text-align: center; margin-bottom: 20px; }
+.inner_wrpo .items_prt { width: 100%; }
+.fluentbuzz { background-position: center top; padding: 0; padding-top: 93%; background-size: 100%; }
+.fluentbuzz .inner_wrpo .image_w { width: 100%; }
+.fluentbuzz .inner_wrpo .items_prt { width: 100%; text-align: center; } 
+.interested_wr  { width: 100%; padding: 16px; box-sizing: border-box; text-align: center; }
+.inner_wrpo .image_w img { max-width: 100%; }
 }
 @media screen and (max-width: 992px){
     .top_wrapper .top_inner_content .logo_i{ display: none;} 
+}
+@media screen and (max-width: 576px){ 
+    .top_wrapper .top_inner_content .subtitle { margin-bottom: 0; }
+    .container { width: 100%; }
+    .top_wrapper .top_inner_content .title{ margin: 0; line-height: inherit;}
+    .artist_wrpr .artist_inner .art_title { font-size: 36px; line-height: initial; }
+    .geoBG .title_bg { font-size: 42px; padding: 0 6px; }
+    .influxiq .title_bg { font-size: 38px; padding:0 6px; } 
+    .inner_wrpo .items_prt .title_bg { font-size: 24px; }
+    .interested_wr .univ_button{ line-height: inherit; font-size: 16px;}
 }
 @media screen and (max-width: 420px){ 
     .container { width: 100%; box-sizing: border-box;  }
     .top_wrapper .top_inner_content .title { font-size: 22px; line-height: inherit; }
     .top_wrapper .top_inner_content .subtitle { font-size: 18px; line-height: inherit; margin: 0; }
+    .artist_wrpr .artist_inner .art_title { font-size: 28px; }
+    .artist_wrpr .artist_inner .wrpr .img_wr { margin-bottom: 20px; }
+    .artist_wrpr .artist_inner .little_wrpr .para_with_bg { font-size: 18px; }
+    .inner_wrpo .items_prt .univ_button { font-size: 16px; }
+    .influxiq .title_bg { font-size: 24px; padding: 6px; }
+    .artist_wrpr .artist_inner .little_wrpr .para { font-size: 18px; }
+    .inner_wrpo .items_prt .title_bg { font-size: 20px; }
+    .desc { font-size: 16px; }
+    .bg_contain { font-size: 16px; }
+    .interest { font-size: 16px; }
+    .geoBG .title_bg { font-size: 34px; }
+    .bgInner .inner_wrpo .items_prt .title_bg { font-size: 22px; }
+    .artist_wrpr .artist_inner .little_wrpr .univ_button { font-size: 16px; padding: 5px!important; } 
 }
 
 
 
-/* work sheet */
-/* 
-*29.04.2020
-1. subrata Universal tech associate home page top banner block html + responsive 2
-2. subrata Universal tech associate home page WHO WE REPRESENT block html 1.5
-2. subrata Universal tech associate home page WHO WE REPRESENT block responsive 1.5
-3 subrata Universal tech associate home page OUR STRATEGIC BUNDLING OF TECHNOLOGIES  html + responsive 2
-4. subrata Universal tech associate home page OUR CURRENT PORTFOLIO html + responsive 2
 
-*30.04.2020
-subrata Universal tech associate  header block html + responsive 2
-subrata Universal tech associate  footer block html + responsive 2
-subrata Universal tech associate contact us top  block html + responsive 1
-subrata Universal tech associate contact us  form block html 2 
-subrata Universal tech associate contact us  form block responsive 1
-subrata Universal tech associate  representation top block html 1
-
-
-1.05.2020
-subrata Universal tech associate prospect top banner section html + responsive 2
-subrata Universal tech associate prospect top section html + responsive 2
-subrata Universal tech associate prospect ARTISTXP-THE ARTIST EXPERIENCE section html + responsive 2
-subrata Universal tech associate prospect THE BETO PAREDES FAMILY OF COMPANIES section html + responsive 2
-subrata Universal tech associate prospect GEOFENCEDSP section html  1 */

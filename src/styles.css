@@ -45,6 +45,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-weight: 500;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ArnoproRegular';
+    src: url('./assets/fonts/ArnoPro-Regular.woff2') format('woff2'),
+        url('./assets/fonts/ArnoPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
  
 .header_w .inner_wrapper  .mat-list-item .mat-list-item-content {
     display: flex;
