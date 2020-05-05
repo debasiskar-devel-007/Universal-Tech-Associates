@@ -97,7 +97,7 @@ background: linear-gradient(180deg, rgba(245,153,26,1) 0%, rgba(255,92,46,1) 100
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', endColorstr='#ff5c2e',GradientType=0 ); /* ie6-9 */
 }
 
-.b3{ background: url('../../../assets/images/b3-imgbg.png') no-repeat left -62% top -174px;padding: 12px 30px;min-height: 957px;margin-top: -13%;}
+.b3{ background: url('../../../assets/images/b3-imgbg.png') no-repeat left -62% top -174px;padding: 8px 30px;min-height: 957px;margin-top: -12%;}
 .b3 .b3-content{ width: auto;text-align: left;padding-left: 255px}
 .b3 .coldivwrapper{padding-right: 0;}
 
