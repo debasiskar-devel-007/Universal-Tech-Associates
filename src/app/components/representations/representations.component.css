@@ -36,7 +36,7 @@ margin-bottom: 60px; display: block;}
 .orangegradbox .parag{color:#0a121d !important;font-size: 23px;line-height: 28px;font-weight: 600;margin: 0 !important;}
 .orangegradbox .parag span{color:#ff2400 !important}
 
-.b2{background:url(../../../assets/images/rb2-imgbg.png) no-repeat right -66% bottom;padding:105px 30px 20px;min-height:770px;margin-top:-8%;background-size:82%}
+.b2{background:url(../../../assets/images/rb2-imgbg.png) no-repeat right -66% bottom;padding:105px 30px 20px;min-height:1px;margin-top:-8%;background-size:82%}
 .b2 .b2-content{width:auto;text-align:left;padding-right:180px;position: relative;z-index: 9;}
 .bluebox{background-color:#359ebb;display:block;padding:14px 20px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
 .b2 .b2-content .btnblue:last-child{margin-top:10px}
@@ -63,7 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     overflow: hidden;
     display: inline-block;
     width: auto;
-    border-radius: 50px;
+    border-radius: 100px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     border:1px solid #fff;
     text-align: center;
