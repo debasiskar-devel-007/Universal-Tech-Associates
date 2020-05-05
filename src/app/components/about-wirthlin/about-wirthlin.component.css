@@ -137,6 +137,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     @media screen and (max-width: 1740px) {
     .b3{margin-top: -16%;}
     .container{width:100%}
+    .top_wrapper .container {width: 90%;}
     .top_wrapper{background-position:60% center;padding-bottom:0}
     .bluebox .parag {font-size: 55px;}
     }
