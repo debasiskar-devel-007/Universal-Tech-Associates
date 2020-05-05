@@ -311,20 +311,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b5 {background-position: left top -12%;}
     .b6 {background-position: left top -13%;}
     .coldiv_gradient {flex: 0 0 30px;}
-    /* .b4 .coldiv:nth-child(odd) {flex-direction: column;}
-    .b4 .coldiv:nth-child(even) {flex-direction: column;}
-    .b5 .coldiv:nth-child(odd) {flex-direction: column;}
-    .b5 .coldiv:nth-child(even) {flex-direction: column;} */
-
     }
     @media screen and (max-width: 768px) {
-        .b5 {background-position: left top -7%;}
-        .b3 {background-position: left top -90px;}
-        .b6 {background-position: left top -7%;}
-        .b1 .art_title {font-size: 32px;}
+    .b5 {background-position: left top -7%;}
+    .b3 {background-position: left top -90px;}
+    .b6 {background-position: left top -7%;}
+    .b1 .art_title {font-size: 32px;}
     }
     @media screen and (max-width: 640px) {
-    .bluebox .parag {font-size: 18px;line-height: normal;}
+    .bluebox .parag {font-size: 17px;line-height: normal;}
     .b5 {background-position: left top -5%;}
     .b3 {background-position: left top -70px;}
     .b6 {background-position: left top -5%;}

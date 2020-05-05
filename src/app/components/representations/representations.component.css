@@ -185,7 +185,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .coldivwrapper {padding-right: 0;}
     .videoWrapperblock {width: 97%;}
     .bluebox .parag {font-size: 28px;line-height: normal;}
-    .btnblue {font-size: 20px;display: block;}
+    .btnblue {font-size: 18px;display: block;}
+    .orangegradbox {padding: 14px 20px;}
     }
 
     @media screen and (max-width: 1024px) {
@@ -222,6 +223,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     }
     @media screen and (max-width: 640px) {
     .bluebox .parag {font-size: 17px;line-height: normal;}
+    .bluegradbox .parag {font-size: 14px;}
     }
     @media screen and (max-width: 480px) {
     .container{width:100%;box-sizing:border-box}
