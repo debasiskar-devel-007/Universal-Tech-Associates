@@ -121,7 +121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     }
 
     @media screen and (max-width: 1540px) {
-    .bluebox .parag {font-size: 44px;}
+    .bluebox .parag {font-size: 50px;}
     .orangegradbox .parag {font-size: 16px;}
     .bluegradbox .parag {font-size: 15px;}
     .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
