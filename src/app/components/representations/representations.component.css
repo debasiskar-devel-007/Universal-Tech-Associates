@@ -83,7 +83,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .top_wrapper{background-position:86% center;padding-bottom:0}
     .b1 {background-position: left -10% bottom;}
     .b2 {background-position: right -56% top -10px;}
-    .b6 {margin-top: -32%;}
     }    
     @media screen and (max-width: 1740px) {
     .container{width:100%}

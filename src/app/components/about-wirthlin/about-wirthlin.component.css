@@ -132,7 +132,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b1 {background-position: left -10% bottom;}
     .b2 {background-position: right -56% top -10px;}
     .b1 .b1-content {padding-left: 710px;}
-    .bluegradbox .parag{font-size: 21px;line-height: 26px;}
+    .bluegradbox .parag{font-size: 21px;line-height: 26px;}    
+    .b6 {margin-top: -32%;}
     }    
     @media screen and (max-width: 1740px) {
     .b3{margin-top: -16%;}
