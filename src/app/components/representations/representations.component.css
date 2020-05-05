@@ -152,7 +152,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     }
 
     @media screen and (max-width: 1240px) {
-    .b1 {background-position: left -450% bottom;}
+    .b1 {background-position: left -152% bottom;}
     .bluebox .parag {font-size: 33px;}
     .b2 {background-position: right -324px top -10px;}
     .bluegradbox .parag {font-size: 13px;}
