@@ -3,52 +3,52 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 @font-face {
     font-family: 'MontserratRegular';
-    src: url('./assets/fonts/Montserrat-Regular.woff2') format('woff2'),
-    url('./assets/fonts/Montserrat-Regular.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MontserratSemibold';
-    src: url('./assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
-    url('./assets/fonts/Montserrat-SemiBold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Montserrat-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'MontserratBold';
-    src: url('./assets/fonts/Montserrat-Bold.woff2') format('woff2'),
-    url('./assets/fonts/Montserrat-Bold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'RobotoBold';
-    src: url('./assets/fonts/Roboto-Bold.woff2') format('woff2'),
-        url('./assets/fonts/Roboto-Bold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Roboto-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RobotoRegular';
-    src: url('./assets/fonts/Roboto-Regular.woff2') format('woff2'),
-        url('./assets/fonts/Roboto-Regular.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RobotoMedium';
-    src: url('./assets/fonts/Roboto-Medium.woff2') format('woff2'),
-        url('./assets/fonts/Roboto-Medium.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/Roboto-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'ArnoproRegular';
-    src: url('./assets/fonts/ArnoPro-Regular.woff2') format('woff2'),
-        url('./assets/fonts/ArnoPro-Regular.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/ArnoPro-Regular.woff2') format('woff2'),
+        url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/fonts/ArnoPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
