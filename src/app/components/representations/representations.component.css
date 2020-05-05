@@ -111,7 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     }
     @media screen and (max-width: 1600px) {
     .top_wrapper .top_inner_content{width:500px}
-    .bluebox .parag {font-size: 46px;}
+    .bluebox .parag {font-size: 47px;}
     .orangegradbox .parag {font-size: 19px;}
     .bluegradbox .parag {font-size: 17px;}
     .coldiv_content .header-title .head {font-size: 17px;}
