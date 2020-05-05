@@ -83,6 +83,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .top_wrapper{background-position:86% center;padding-bottom:0}
     .b1 {background-position: left -10% bottom;}
     /* .b2 {background-position: right -56% top -10px;} */
+    .b2 {background-position: right -128% bottom;background-size: 88%;}
     }    
     @media screen and (max-width: 1740px) {
     .container{width:100%}    
@@ -106,8 +107,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .bluegradbox .parag {font-size: 18px;}
     .orangegradbox .parag {font-size: 20px;}
     .bluebox .parag {font-size: 49px;}
-    .b2{background-position: right -125% top -10px;padding: 88px 30px 20px;}
-    
+    .b2{background-position: right -350px bottom;padding: 88px 30px 20px;background-size: 95%;}    
     }
     @media screen and (max-width: 1600px) {
     .top_wrapper .top_inner_content{width:500px}
