@@ -26,7 +26,7 @@ margin-bottom: 60px; display: block;}
 
 .b2{background:url(../../../assets/images/b2-imgbg.png) no-repeat right -34% top -10px;padding:105px 30px 20px;min-height:1128px;margin-top:-11%}
 .b2 .b2-content{width:auto;text-align:left;padding-right:489px}
-.bluebox{background-color:#359ebb;display:block;padding:14px 41px 14px 20px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
+.bluebox{background-color:#359ebb;display:block;padding:19px 41px 14px 20px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
 .bluebox .parag{font-family:'ArnoproRegular';color:#fff!important;font-size:54px;line-height:50px;font-weight:600;text-transform:uppercase;margin:0!important;width:100%!important}
 .b2 .b2-content .parag{width:97%}
 
@@ -131,6 +131,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .top_wrapper{background-position:86% center;padding-bottom:0}
     .b1 {background-position: left -10% bottom;}
     .b2 {background-position: right -56% top -10px;}
+    .b1 .b1-content {padding-left: 710px;}
     }    
     @media screen and (max-width: 1740px) {
     .container{width:100%}
@@ -141,7 +142,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b5 {margin-top: -10%;}
     .orangegradbox .parag {font-size: 21px;}
     .bluebox .parag {font-size: 51px;}
-    .b2 {background-position: right -56% top -10px;}
+    .b2 {background-position: right -75% top -10px;}
     .b4 {background-position:right -340px top -120px;margin-top: -13px;}
     .b3 {background-position: left -85% top -174px;padding: 16px 30px;margin-top: -15%;}
     .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
@@ -198,12 +199,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     @media screen and (max-width: 1366px) {
     .top_wrapper .top_inner_content .title{font-size:34px}
     .top_wrapper.top_inner_content{width:500px}
-    .bluebox .parag {font-size: 41px;}
+    .bluebox .parag {font-size: 39px;}
     .b2 {background-position: right -290% top -10px;}
-    .b6 {margin-top: -35%;padding: 10px 30px 12px;}
+    .b6 {margin-top: -35%;padding: 10px 30px 12px;background-position: right -55% bottom 3%;}
     .b3 {padding: 24px 30px;margin-top: -17%;}    
     .b1 {background-position: left -105% bottom;}   
-    .b5 {background-position: left -145% top -196px;}
+    .b5 {background-position: left -170% top -196px;}
     }
     @media screen and (max-width: 1300px) {
     .b1 {background-position: left -150% bottom;}
@@ -259,7 +260,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b4 {background-size: 100%;background-color: #f3f2f2;padding: 16px;padding-top: 45%;background-position: left top -11%;margin-top: 0;min-height: inherit;}
     .b4 .coldivwrapper {text-align: center;padding-right: 0;}
 
-    .b5{background-size:100%;background-color:#e8ebef;padding:16px;padding-top:77%;background-position:left top -163%;margin-top:0;min-height:inherit}
+    .b5{background-size:100%;background-color:#e8ebef;padding:16px;padding-top:77%;background-position:left top -100%;margin-top:0;min-height:inherit}
     .b5 .coldivwrapper{text-align:center;padding-left:0}
 
     .b6{
@@ -331,5 +332,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b1 .art_title {font-size: 24px;}
     .b5 {background-position: left top -5%;}
     .b3 {background-position: left top -50px;}
-    .b6 {background-position: left top -5%;}
+    .b6 {background-position: left top -7%;}
     }
