@@ -77,7 +77,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
 
     /* Media css start */
     @media screen and (max-width: 1880px) {
-    .b2 {background-position: right -90% top -10px;margin-top: -9%;}
+   
     }
     @media screen and (max-width: 1800px) {
     .top_wrapper{background-position:86% center;padding-bottom:0}
@@ -93,6 +93,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .orangegradbox .parag {font-size: 21px;}
     .bluebox .parag {font-size: 51px;line-height: normal;}
     /* .b2 {background-position: right -56% top -10px;} */
+    .b2 {background-position: right -90% top -10px;margin-top: -10%;}
     .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
     .coldiv_imgdiv img{width: auto;}
     .coldiv_content .header-title .head {font-size: 18px;}
