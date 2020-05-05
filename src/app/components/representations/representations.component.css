@@ -117,9 +117,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .coldiv_content .header-title .head {font-size: 17px;}
     .coldiv_content .header-title .img_border {width: 35%;}
     .coldiv_content {padding: 13px;}
-    .b2 {background-position: right -340px bottom;
+    .b2 {background-position: right -400px bottom;
         padding: 88px 30px 20px;
-        background-size: 95%;}
+        background-size: 98%;
+    }
     }
     @media screen and (max-width: 1570px) {
     .b2 {
@@ -147,6 +148,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
         background-size: 97%;}
     .videoWrapperblock {width: 90%;}
     }
+    @media screen and (max-width: 1400px) {
+        .bluebox .parag {
+            font-size: 46px;
+        }
+    }
+    
     @media screen and (max-width: 1366px) {
     .top_wrapper .top_inner_content .title{font-size:34px}
     .top_wrapper.top_inner_content{width:500px}
