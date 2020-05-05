@@ -112,7 +112,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
 .b5 .coldiv:nth-child(odd) {flex-direction: row-reverse;}
 .b5 .coldiv:nth-child(even) {flex-direction: row;}
 
-.b6{ background: url('../../../assets/images/b6-imgbg.png') no-repeat right -20% bottom 3%;padding: 12px 30px 12px;min-height: 1px;margin-top: -28%;}
+.b6{ background: url('../../../assets/images/b6-imgbg.png') no-repeat right -20% bottom 3%;padding: 12px 30px 12px;min-height: 1px;margin-top: -29%;}
 .b6 .coldivwrapper{padding-right: 290px;}
 .b6 .coldiv:nth-child(odd) {flex-direction: row-reverse;}
 .b6 .coldiv:nth-child(even) {flex-direction: row;}
