@@ -85,7 +85,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .b2 {background-position: right -56% top -10px;}
     }    
     @media screen and (max-width: 1740px) {
-    .container{width:100%}
+    .container{width:100%}    
+    .top_wrapper .container {width: 90%;}
     .top_wrapper{background-position:60% center;padding-bottom:0}
     }
     @media screen and (max-width: 1700px) {
