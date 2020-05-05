@@ -65,8 +65,6 @@
 
 @font-face {
     font-family: 'MontserratBold';
-    /* src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
-    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-Bold.woff') format('woff'); */
     src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/assets/fonts/Montserrat-Bold.eot');
     src: url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
         url('https://all-frontend-assets.s3.amazonaws.com/universaltechassociates/assets/fonts/ontserrat-Bold.woff2') format('woff2'),
