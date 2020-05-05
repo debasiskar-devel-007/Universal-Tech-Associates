@@ -15,9 +15,9 @@ font-family: 'RobotoBold'; margin: 30px 0 180px; display: block;}
 .main_wr {
     background:url('../../../assets/images/contactLastBg.jpg') no-repeat center bottom;   
 }
-.form_inner { padding: 60px 0;}
+.form_inner { padding: 30px 0;}
 .contact_form_wrapper{ width: 1040px; margin: 0 auto; box-shadow: none; }
-.contact_form_wrapper .form_title{ color: #0a121d; font-size: 60px; font-family: 'ArnoproReguar'; text-transform: uppercase; text-align: center;}
+.contact_form_wrapper .form_title{ color: #0a121d; font-size: 60px; font-family: 'ArnoproReguar'; text-transform: uppercase; text-align: center; margin-top: 30px;}
 mat-label{ margin-bottom:5px; display: block; color: #555656; font-size: 18px; font-family: 'MontserratRegular'; text-transform: uppercase;}
 mat-label b{ color: #fd0404;}
 .form_g{ display: flex; justify-content: space-between; }
@@ -48,6 +48,12 @@ mat-label b{ color: #fd0404;}
  
 @media screen and (max-width: 1740px){
     .container{ width: 90%; }
+}
+@media screen and (max-width: 1400px){
+    .submit_wrapper button { font-size: 32px;
+        padding: 10px 18px 15px;
+        min-width: 250px;
+        line-height: inherit; }
 }
 @media screen and (max-width: 1200px){
 .contact_form_wrapper { width: 90%; }

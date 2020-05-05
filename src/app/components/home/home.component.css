@@ -1,16 +1,4 @@
-.title_bg{ background: #359ebb; font-family: 'ArnoproRegular'; font-size: 60px; padding: 10px;
-box-sizing: border-box; border-radius: 6px; color: #fff; position: relative; line-height: 58px; }
-
-.title_bg::before{
-    content: '';
-    clip-path: polygon(0 0, 100% 0, 100% 68%);
-    position: absolute;
-    width: 30px;
-    height: 25px;
-    bottom: -23px;
-    background:#359ebb;
-    left: 0;
-}
+ 
 .uviTech_wrapper{ box-shadow: none;}
 .univ_button{ white-space: normal; font-size: 20px; font-family: 'MontserratBold'; color: #fff; padding: 10px 16px; background: linear-gradient(0deg, #399cd5, #43beda); border-radius: 25px; line-height: 22px; }
 
@@ -211,3 +199,4 @@ background: linear-gradient(20deg, #6e61ba, #4f3ca6); color: #fff; text-transfor
    .uvTech_lastblk .title_bg { font-size: 24px; line-height: inherit; }
    .inner_content .subTest span { font-size: 20px; padding: 4px 6px; }
 }
+ 
