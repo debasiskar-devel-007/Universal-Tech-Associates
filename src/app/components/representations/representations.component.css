@@ -38,7 +38,7 @@ margin-bottom: 60px; display: block;}
 
 .b2{background:url(../../../assets/images/rb2-imgbg.png) no-repeat right -66% bottom;padding:105px 30px 20px;min-height:1px;margin-top:-8%;background-size:82%}
 .b2 .b2-content{width:auto;text-align:left;padding-right:180px;position: relative;z-index: 9;}
-.bluebox{background-color:#359ebb;display:block;padding:14px 20px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
+.bluebox{background-color:#359ebb;display:block;padding:20px 20px 10px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
 .b2 .b2-content .btnblue:last-child{margin-top:10px}
 .bluebox .parag{font-family:'ArnoproRegular';color:#fff!important;font-size:60px;line-height:50px;text-transform:uppercase;margin:0!important;width:100%!important}
 .b2 .b2-content .parag{width:97%}
@@ -251,4 +251,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .top_wrapper .top_inner_content .title{font-size:22px;line-height:inherit}
     .top_wrapper .top_inner_content .subtitle{font-size:18px;line-height:inherit;margin:0}
     .b1 .art_title {font-size: 22px;margin-bottom: 8px;;}
+    .btnblue {font-size: 13px;}
     }
