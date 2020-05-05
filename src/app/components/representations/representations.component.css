@@ -121,7 +121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
 
     @media screen and (max-width: 1540px) {
     .bluebox .parag {font-size: 44px;}
-    .orangegradbox .parag {font-size: 17px;}
+    .orangegradbox .parag {font-size: 16px;}
     .bluegradbox .parag {font-size: 15px;}
     .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
     .coldiv_imgdiv img{width: auto;}
@@ -132,7 +132,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .b1 .art_title {font-size: 47px;}
     .b1 .b1-content {padding-left: 580px;}
     .b1 {background-position: left -85% bottom;}
-    .b2 {background-position: right -150% top -10px;padding: 88px 30px 20px;margin-top: -14%;}
+    .b2 {    background-position: right -340px bottom;
+        padding: 88px 30px 20px;
+        margin-top: -14%;
+        background-size: 97%;}
     .videoWrapperblock {width: 90%;}
     }
     @media screen and (max-width: 1366px) {
@@ -157,7 +160,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     @media screen and (max-width: 1240px) {
     .b1 {background-position: left -152% bottom;}
     .bluebox .parag {font-size: 35px;}
-    .b2 {background-position: right -324px top -10px;}
+    .b2 {background-position: right -290px bottom;background-size: 96%;}
     .bluegradbox .parag {font-size: 13px;}
     .orangegradbox .parag {font-size: 14px;}
     }
