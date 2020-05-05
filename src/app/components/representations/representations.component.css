@@ -128,7 +128,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .b1 .art_title {font-size: 47px;}
     .b1 .b1-content {padding-left: 580px;}
     .b1 {background-position: left -85% bottom;}
-    .b2 {background-position: right -175% top -10px;padding: 88px 30px 20px;margin-top: -14%;}
+    .b2 {background-position: right -150% top -10px;padding: 88px 30px 20px;margin-top: -14%;}
     .videoWrapperblock {width: 90%;}
     }
     @media screen and (max-width: 1366px) {
