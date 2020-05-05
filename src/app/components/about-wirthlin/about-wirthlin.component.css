@@ -127,7 +127,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b3 {margin-top: -15%;}
     }
     @media screen and (max-width: 1860px) {
-    .b4 {background-position:right -200% top -120px;}
+    .b4 {background-position: right -160% top -120px;}
     }
     @media screen and (max-width: 1800px) {
     .top_wrapper{background-position:86% center;padding-bottom:0}
@@ -136,9 +136,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b1 .b1-content {padding-left: 710px;}
     .bluegradbox .parag{font-size: 21px;line-height: 26px;}    
     .b6 {margin-top: -32%;}
+    .b4 {background-position: right -315% top -120px;}
     }    
     @media screen and (max-width: 1740px) {
-    .b3{margin-top: -16%;}
+    .b4 {background-position: right -440% top -120px;}
+    .b3{margin-top: -16%;background-position:left -80% top -174px;}
     .container{width:100%}
     .top_wrapper .container {width: 90%;}
     .top_wrapper{background-position:60% center;padding-bottom:0}
