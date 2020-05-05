@@ -153,7 +153,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .bluebox .parag {font-size: 53px;}
     .b2 {background-position: right -75% top -10px;}
     .b4 {background-position:right -340px top -120px;margin-top: -13px;}
-    .b3 {background-position: left -85% top -174px;padding: 16px 30px;margin-top: -17%;}
+    .b3 {background-position: left -85% top -174px;padding: 16px 30px;margin-top: -15%;}
     .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
     .coldiv_imgdiv img{width: auto;}
     .coldiv_content .header-title .head {font-size: 18px;}
@@ -202,6 +202,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     @media screen and (max-width: 1500px) {
         .b2 {background-position: right -150% top -10px;}
         .b3 {margin-top: -17%;}
+        .b5 {background-position: left -100% top -196px;}
     }
     
 
@@ -238,7 +239,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b1 {background-position: left -150% bottom;}
     .bluebox .parag {font-size: 39px;}
     .b2 {background-position: right -440% top -10px;}
-    .b3 {background-position: left -318% top -193px;margin-top: -17%;}
+    .b3 {background-position: left -318% top -193px;margin-top: -13%;}
     .b5 {margin-top: -13%;background-position: left -200% top -196px;}
     .b6 {background-position: right -68% bottom 3%;margin-top: -36%;}
     }
