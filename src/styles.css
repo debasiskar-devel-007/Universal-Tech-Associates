@@ -102,13 +102,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .title_bg{ background: #359ebb; font-family: 'ArnoproRegular'; font-size: 60px; padding: 10px;
     box-sizing: border-box; border-radius: 6px; color: #fff; position: relative; line-height: 58px; }
     
-    .title_bg::before{
+    .title_bg:before{
         content: '';
-        clip-path: polygon(0 0, 100% 0, 100% 68%);
         position: absolute;
-        width: 30px;
-        height: 25px;
-        bottom: -23px;
-        background:#359ebb;
+        width: 0;
+        height: 0;
+        border-top: 20px solid #359ebb;
+        border-left: 20px solid transparent;
         left: 0;
+        bottom: -16px;
+        display: inline-block;
     }
