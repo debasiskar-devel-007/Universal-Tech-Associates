@@ -37,7 +37,7 @@ margin-bottom: 60px; display: block;}
 .orangegradbox .parag span{color:#ff2400 !important}
 
 .b2{background:url(../../../assets/images/rb2-imgbg.png) no-repeat right -66% bottom;padding:105px 30px 20px;min-height:770px;margin-top:-8%;background-size:82%}
-.b2 .b2-content{width:auto;text-align:left;padding-right:180px}
+.b2 .b2-content{width:auto;text-align:left;padding-right:180px;position: relative;z-index: 9;}
 .bluebox{background-color:#359ebb;display:block;padding:14px 20px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
 .b2 .b2-content .btnblue:last-child{margin-top:10px}
 .bluebox .parag{font-family:'ArnoproRegular';color:#fff!important;font-size:54px;line-height:50px;font-weight:600;text-transform:uppercase;margin:0!important;width:100%!important}
@@ -56,7 +56,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     color: #fff;
     font-size: 18px;
     font-family: 'MontserratBold';
-    padding: 18px;
+    padding: 13px 18px 18px;
     margin-top: 28px;
     box-shadow: 0 0 5px #00000026;
     text-decoration: none;
@@ -128,7 +128,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .b1 .art_title {font-size: 47px;}
     .b1 .b1-content {padding-left: 580px;}
     .b1 {background-position: left -85% bottom;}
-    .b2 {background-position: right -175% top -10px;padding: 88px 30px 20px;margin-top: -14%;}
+    .b2 {background-position: right -150% top -10px;padding: 88px 30px 20px;margin-top: -14%;}
     .videoWrapperblock {width: 90%;}
     }
     @media screen and (max-width: 1366px) {
@@ -152,7 +152,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     }
 
     @media screen and (max-width: 1240px) {
-    .b1 {background-position: left -450% bottom;}
+    .b1 {background-position: left -152% bottom;}
     .bluebox .parag {font-size: 33px;}
     .b2 {background-position: right -324px top -10px;}
     .bluegradbox .parag {font-size: 13px;}
