@@ -40,7 +40,7 @@ margin-bottom: 60px; display: block;}
 .b2 .b2-content{width:auto;text-align:left;padding-right:180px;position: relative;z-index: 9;}
 .bluebox{background-color:#359ebb;display:block;padding:14px 20px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
 .b2 .b2-content .btnblue:last-child{margin-top:10px}
-.bluebox .parag{font-family:'ArnoproRegular';color:#fff!important;font-size:54px;line-height:50px;font-weight:600;text-transform:uppercase;margin:0!important;width:100%!important}
+.bluebox .parag{font-family:'ArnoproRegular';color:#fff!important;font-size:60px;line-height:50px;text-transform:uppercase;margin:0!important;width:100%!important}
 .b2 .b2-content .parag{width:97%}
 .b2-content .bluebox{position:relative;width:64%}
 
@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     }
     @media screen and (max-width: 1700px) {
     .orangegradbox .parag {font-size: 21px;}
-    .bluebox .parag {font-size: 51px;}
+    .bluebox .parag {font-size: 51px;line-height: normal;}
     .b2 {background-position: right -56% top -10px;}
     .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
     .coldiv_imgdiv img{width: auto;}
@@ -118,11 +118,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     }
 
     @media screen and (max-width: 1540px) {
-    .bluebox .parag {font-size: 42px;}
+    .bluebox .parag {font-size: 44px;}
     .orangegradbox .parag {font-size: 17px;}
     .bluegradbox .parag {font-size: 15px;}
     .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
     .coldiv_imgdiv img{width: auto;}
+    .btnblue {font-size: 17px;}
+    .videoWrapperblock {width: 88%;}
     }
     @media screen and (max-width: 1440px) {
     .b1 .art_title {font-size: 47px;}
@@ -148,12 +150,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     .b2 {background-position: right -208px top -10px;}
     .orangegradbox .parag {font-size: 15px;line-height: 24px;}
     .bluegradbox .parag {font-size: 14px;}
-    .bluebox .parag {font-size: 36px;}  
     }
 
     @media screen and (max-width: 1240px) {
     .b1 {background-position: left -152% bottom;}
-    .bluebox .parag {font-size: 33px;}
+    .bluebox .parag {font-size: 35px;}
     .b2 {background-position: right -324px top -10px;}
     .bluegradbox .parag {font-size: 13px;}
     .orangegradbox .parag {font-size: 14px;}
@@ -219,11 +220,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44c1db', end
     @media screen and (max-width: 768px) {
         .b1 .art_title {font-size: 32px;}
         .b2-content .bluebox {width: 88%;}
-        .videoWrapperblock {width: 90%;}
+        .videoWrapperblock {width: 96%;}
     }
     @media screen and (max-width: 640px) {
     .bluebox .parag {font-size: 17px;line-height: normal;}
     .bluegradbox .parag {font-size: 14px;}
+    .videoWrapperblock {width: 95%;}
     }
     @media screen and (max-width: 480px) {
     .container{width:100%;box-sizing:border-box}

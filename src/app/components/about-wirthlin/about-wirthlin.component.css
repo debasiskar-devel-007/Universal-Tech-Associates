@@ -27,7 +27,7 @@ margin-bottom: 60px; display: block;}
 .b2{background:url(../../../assets/images/b2-imgbg.png) no-repeat right -34% top -10px;padding:105px 30px 20px;min-height:1128px;margin-top:-11%}
 .b2 .b2-content{width:auto;text-align:left;padding-right:489px}
 .bluebox{background-color:#359ebb;display:block;padding:24px 41px 14px 20px;border-radius:5px;border-bottom-left-radius:0;margin-bottom:0;border:1px solid #fff}
-.bluebox .parag{font-family:'ArnoproRegular';color:#fff!important;font-size:54px;line-height:50px;font-weight:600;text-transform:uppercase;margin:0!important;width:100%!important}
+.bluebox .parag{font-family:'ArnoproRegular';color:#fff!important;font-size:52px;line-height:50px;text-transform:uppercase;margin:0!important;width:100%!important}
 .b2 .b2-content .parag{width:97%}
 
 .coldivwrapper{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;flex-wrap:wrap;padding-right:290px}
@@ -122,10 +122,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
 
 /* Media css start */
 
-
-
-    @media screen and (max-width: 1880px) {
+    @media screen and (max-width: 1900px) {
     .b2 {background-position: right -50% top -10px;margin-top: -13%;}
+    .b3 {margin-top: -15%;}
     }
     @media screen and (max-width: 1800px) {
     .top_wrapper{background-position:86% center;padding-bottom:0}
@@ -139,12 +138,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b3{margin-top: -16%;}
     .container{width:100%}
     .top_wrapper{background-position:60% center;padding-bottom:0}
+    .bluebox .parag {font-size: 55px;}
     }
     @media screen and (max-width: 1700px) {
     .b6 {margin-top: -33%;background-position: right -28% bottom 3%;}
     .b5 {margin-top: -10%;}
     .orangegradbox .parag {font-size: 21px;}
-    .bluebox .parag {font-size: 51px;}
+    .bluebox .parag {font-size: 53px;}
     .b2 {background-position: right -75% top -10px;}
     .b4 {background-position:right -340px top -120px;margin-top: -13px;}
     .b3 {background-position: left -85% top -174px;padding: 16px 30px;margin-top: -17%;}
@@ -159,13 +159,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .parag {font-size: 16px;}
     .bluegradbox .parag {font-size: 18px;}
     .orangegradbox .parag {font-size: 20px;}
-    .bluebox .parag {font-size: 49px;}
-    .b2{bpadding: 88px 30px 20px;}
+    .bluebox .parag {font-size: 52px;}
+    .b2{padding: 88px 30px 20px;}
     .b3 {background-position: left -97% top -193px;}
     .b4 {background-position: right -366px top -120px;position: relative;z-index: 9;}
     .b5 {background-position: left -51% top -196px;min-height: 1120px;margin-top: -11%;padding: 25px 30px 12px;position: relative;z-index: 9;}
     .b6 {background-position: right -30% bottom 3%;position: relative;z-index: 99;margin-top: -29%;padding: 16px 30px 12px;}
-    
+    }
+    @media screen and (max-width: 1636px) {
+    .bluebox .parag {font-size: 50px;}
     }
     @media screen and (max-width: 1600px) {
     .top_wrapper .top_inner_content{width:500px}
@@ -215,7 +217,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     @media screen and (max-width: 1366px) {
     .top_wrapper .top_inner_content .title{font-size:34px}
     .top_wrapper.top_inner_content{width:500px}
-    .bluebox .parag {font-size: 39px;}
+    .bluebox .parag {font-size: 38px;}
     .b2 {background-position: right -290% top -10px;}
     .b6 {margin-top: -35%;padding: 10px 30px 12px;background-position: right -55% bottom 3%;}
     .b3 {padding: 24px 30px;margin-top: -16%;}    
@@ -242,7 +244,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .top_wrapper .top_inner_content{width:455px}
     .bluebox .parag {font-size: 37px;}
     .b2 {background-position: right -380px top -10px;}
-    .b3 {background-position: left -492px top -160px;margin-top: -18%;}
+    .b3 {background-position: left -492px top -160px;margin-top: -18%;padding: 30px 30px;}
     .orangegradbox .parag {font-size: 15px;line-height: 24px;}
     .bluegradbox .parag {font-size: 14px;}
     .bluebox .parag {font-size: 36px;}
