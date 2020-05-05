@@ -125,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
 
 
     @media screen and (max-width: 1880px) {
-    .b2 {background-position: right -90% top -10px;margin-top: -13%;}
+    .b2 {background-position: right -50% top -10px;margin-top: -13%;}
     }
     @media screen and (max-width: 1800px) {
     .top_wrapper{background-position:86% center;padding-bottom:0}
@@ -157,7 +157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .bluegradbox .parag {font-size: 18px;}
     .orangegradbox .parag {font-size: 20px;}
     .bluebox .parag {font-size: 49px;}
-    .b2{background-position: right -95% top -10px;padding: 88px 30px 20px;}
+    .b2{bpadding: 88px 30px 20px;}
     .b3 {background-position: left -97% top -193px;margin-top: -15%;}
     .b4 {background-position: right -366px top -120px;position: relative;z-index: 9;}
     .b5 {background-position: left -51% top -196px;min-height: 1120px;margin-top: -11%;padding: 25px 30px 12px;position: relative;z-index: 9;}
@@ -178,6 +178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     }
 
     @media screen and (max-width: 1540px) {
+    .b2{background-position: right -95% top -10px;}
     .bluebox .parag {font-size: 42px;}
     .orangegradbox .parag {font-size: 17px;}
     .bluegradbox .parag {font-size: 15px;}
@@ -186,6 +187,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .coldiv_imgdiv img{width: auto;}
     .b6 {margin-top: -32%;padding: 20px 30px 12px;}
     }
+
+    @media screen and (max-width: 1500px) {
+        .b2 {background-position: right -150% top -10px;}
+    }
+
     @media screen and (max-width: 1440px) {
     .b5 {margin-top: -12%;background-position: left -115% top -196px;}
     .b4 {margin-top: -21px;}
@@ -195,6 +201,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b1 .b1-content {padding-left: 580px;}
     .b1 {background-position: left -85% bottom;}
     .b2 {background-position: right -175% top -10px;padding: 88px 30px 20px;margin-top: -14%;}
+    }
+
+    @media screen and (max-width: 1400px) {
+    .b2 {background-position: right -220% top -10px;}
     }
     @media screen and (max-width: 1366px) {
     .top_wrapper .top_inner_content .title{font-size:34px}
@@ -206,6 +216,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b1 {background-position: left -105% bottom;}   
     .b5 {background-position: left -170% top -196px;}
     }
+    @media screen and (max-width: 1330px) {
+    .b2 {background-position: right -400% top -10px;}
+    }   
+
     @media screen and (max-width: 1300px) {
     .b1 {background-position: left -150% bottom;}
     .bluebox .parag {font-size: 39px;}
