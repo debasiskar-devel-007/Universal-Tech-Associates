@@ -132,6 +132,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b1 {background-position: left -10% bottom;}
     .b2 {background-position: right -56% top -10px;}
     .b1 .b1-content {padding-left: 710px;}
+    .bluegradbox .parag{font-size: 21px;line-height: 26px;}
     }    
     @media screen and (max-width: 1740px) {
     .container{width:100%}
@@ -228,6 +229,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b5 {margin-top: -13%;background-position: left -200% top -196px;}
     .b6 {background-position: right -68% bottom 3%;}
     }
+    @media screen and (max-width: 1290px) {
+    .b2 {background-position: right -550% top -10px;}
+    }
+
     @media screen and (max-width: 1280px) {
     .top_wrapper .top_inner_content{width:455px}
     .bluebox .parag {font-size: 37px;}
