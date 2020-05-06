@@ -154,7 +154,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b2 {background-position: right -75% top -10px;}
     .b4 {background-position:right -340px top -120px;margin-top: -13px;}
     .b3 {background-position: left -85% top -174px;padding: 16px 30px;margin-top: -15%;}
-    .coldiv_imgdiv{flex: 0 0 40%;overflow: hidden;}
+    .coldiv_imgdiv{flex: 0 0 38%;overflow: hidden;}
     .coldiv_imgdiv img{width: auto;}
     .coldiv_content .header-title .head {font-size: 18px;}
     }
@@ -182,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .bluegradbox .parag {font-size: 17px;}
     .b3 {background-position: left -120% top -193px;}
     .coldiv_content .header-title .head {font-size: 17px;}
-    .b5 {background-position: left -57% top -196px;margin-top: -11%;padding: 18px 30px 12px;}
+    .b5 {background-position: left -70% top -196px;margin-top: -11%;padding: 18px 30px 12px;}
     .coldiv_content .header-title .img_border {width: 35%;}
     .coldiv_content {padding: 13px;}
     .b6{margin-top: -30%;}
@@ -255,13 +255,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .orangegradbox .parag {font-size: 15px;line-height: 24px;}
     .bluegradbox .parag {font-size: 14px;}
     .bluebox .parag {font-size: 36px;}
-    .b1 {background-position: left -180% bottom;}   
+    .b1 {background-position: left -190% bottom;}   
     .b5 {background-position: left -275% top -196px;}
     .b6 {margin-top: -38%;padding: 15px 30px 12px;}
     }
 
-    @media screen and (max-width: 1240px) {
-    .b1 {background-position: left -450% bottom;}
+ 
+
+    @media screen and (max-width: 1260px) {
+    .b1 {background-position: left -260% bottom;}
     .bluebox .parag {font-size: 33px;}
     .b2 {background-position: right -324px top -10px;}
     .bluegradbox .parag {font-size: 13px;}
@@ -271,6 +273,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5991a', end
     .b6 {margin-top: -39%;background-position: right -86% bottom 3%;}
     }
     
+    @media screen and (max-width: 1220px) {
+        .b1 {background-position: left -450% bottom;}
+        }
+
     @media screen and (max-width: 1199px) {
     .top_wrapper{background-size:150%;background-color:#146fa0;padding:16px;padding-top:40%;background-position:100% top}
     .top_wrapper .top_inner_content{width:100%}
