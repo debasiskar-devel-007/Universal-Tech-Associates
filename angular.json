@@ -58,14 +58,16 @@
                   "maximumError": "20kb"
                 }
               ]
-            }, "dev": {
+            },
+            "dev": {
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.dev.ts"
                 }
               ]
-            }, "local": {
+            },
+            "local": {
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -83,9 +85,11 @@
           "configurations": {
             "production": {
               "browserTarget": "helios-serverless:build:production"
-            }, "dev":{
+            },
+            "dev": {
               "browserTarget": "helios-serverless:build:dev"
-            }, "local": {
+            },
+            "local": {
               "browserTarget": "helios-serverless:build:local"
             }
           }
@@ -137,9 +141,11 @@
           "configurations": {
             "production": {
               "devServerTarget": "helios-serverless:serve:production"
-            }, "dev": {
+            },
+            "dev": {
               "devServerTarget": "helios-serverless:serve:dev"
-            }, "local": {
+            },
+            "local": {
               "devServerTarget": "helios-serverless:serve:local"
             }
           }
@@ -164,7 +170,8 @@
                 "scripts": false,
                 "styles": true
               }
-            },"dev": {
+            },
+            "dev": {
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -176,7 +183,8 @@
                 "scripts": false,
                 "styles": true
               }
-            }, "local": {
+            },
+            "local": {
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -194,5 +202,8 @@
       }
     }
   },
-  "defaultProject": "helios-serverless"
+  "defaultProject": "helios-serverless",
+  "cli": {
+    "analytics": "1762a1c9-90da-448e-81a1-921baa13556b"
+  }
 }
