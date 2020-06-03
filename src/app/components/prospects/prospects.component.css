@@ -244,7 +244,7 @@ margin-top: 20px !important;
     .geoBG .title_bg { font-size: 42px; padding: 0 6px; }
     .influxiq .title_bg { font-size: 38px; padding:0 6px; } 
     .inner_wrpo .items_prt .title_bg { font-size: 24px; }
-    .interested_wr .univ_button{ line-height: inherit; font-size: 16px;}
+    .interested_wr .univ_button{line-height: inherit; font-size: 16px;}
 }
 @media screen and (max-width: 420px){ 
     .container { width: 100%; box-sizing: border-box;  }
@@ -264,7 +264,3 @@ margin-top: 20px !important;
     .bgInner .inner_wrpo .items_prt .title_bg { font-size: 22px; }
     .artist_wrpr .artist_inner .little_wrpr .univ_button { font-size: 16px; padding: 10px!important; } 
 }
-
-
-
-
